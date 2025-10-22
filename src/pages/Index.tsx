@@ -62,7 +62,14 @@ const Index = () => {
       </header>
 
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent"></div>
+        <div className="absolute inset-0">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/7e8e2ad7-b1dc-4994-a6a2-955491896118.jpg" 
+            alt="Restaurant interior" 
+            className="w-full h-full object-cover opacity-20 dark:opacity-10"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/80 to-background/90"></div>
+        </div>
         <div className="container mx-auto px-4 py-20 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-up">
             <div className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-semibold mb-4">
@@ -86,8 +93,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 bg-muted/50">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-muted/50 relative">
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/3 h-64 opacity-30 hidden lg:block">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/622bb9b0-d699-481b-9564-d62ca583afb3.jpg" 
+            alt="Training" 
+            className="w-full h-full object-cover rounded-l-3xl"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="p-8 hover-lift border-l-4 border-l-primary">
               <h3 className="text-xl font-bold mb-4">Продажи — это система</h3>
@@ -195,8 +209,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="cases" className="py-20">
-        <div className="container mx-auto px-4">
+      <section id="cases" className="py-20 relative">
+        <div className="absolute inset-0 opacity-5 dark:opacity-5">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/cd28870a-6575-4020-92eb-2a64c2c23a26.jpg" 
+            alt="Happy guests" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Кейсы и результаты</h2>
             
