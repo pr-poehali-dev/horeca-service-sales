@@ -119,8 +119,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="py-20">
-        <div className="container mx-auto px-4">
+      <section id="services" className="py-20 relative">
+        <div className="absolute inset-0 opacity-10 dark:opacity-5">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/fe5725c7-f8cc-4fca-a726-3cb955a0df39.jpg" 
+            alt="Service" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">Услуги</h2>
             
@@ -188,8 +195,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="process" className="py-20 bg-muted/50">
-        <div className="container mx-auto px-4">
+      <section id="process" className="py-20 bg-muted/50 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20 dark:opacity-10">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/3cdf6b63-7aa8-4b7f-b2ec-0b07b0d49528.jpg" 
+            alt="Process" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">С чего начать</h2>
             
@@ -242,8 +256,24 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="pricing" className="py-20 bg-muted/50">
-        <div className="container mx-auto px-4">
+      <section id="pricing" className="py-20 bg-muted/50 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute left-0 top-0 w-1/2 h-full opacity-15 dark:opacity-10">
+            <img 
+              src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/a46c11c1-50e6-40d4-a92d-506e08a8f81f.jpg" 
+              alt="Hotel" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="absolute right-0 top-0 w-1/2 h-full opacity-15 dark:opacity-10">
+            <img 
+              src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/57947c64-7523-420f-8fc1-454d07e3c4d7.jpg" 
+              alt="Bar" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Пакеты и стоимость</h2>
             
@@ -276,8 +306,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="reviews" className="py-20">
-        <div className="container mx-auto px-4">
+      <section id="reviews" className="py-20 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 dark:opacity-5">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/bfa23546-96c3-4c31-953d-877941f9c363.jpg" 
+            alt="Team success" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">Отзывы</h2>
             
@@ -384,8 +421,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-20">
-        <div className="container mx-auto px-4">
+      <section id="contact" className="py-20 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10 dark:opacity-5">
+          <img 
+            src="https://cdn.poehali.dev/projects/6b9136b7-7746-4ed2-885d-dd154a232dd3/files/1af0547c-0c42-4e9b-b71f-63037ad0e193.jpg" 
+            alt="Premium service" 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Оставить заявку</h2>
             <p className="text-center text-muted-foreground mb-12">
